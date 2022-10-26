@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Oznake -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="Informaticki_projekt1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/9f03.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <style>
+      
+      .carousel-inner > .item > img,
+      .carousel-inner > .item > a > img {
+        width: 70%;
+        margin: auto;}
+
+        
+    </style>
+    
+    <title>Informatički projekt 1</title>
+  </head>
+
+  <body>
+    <!--Pozadina-->
+    <figure>
+      <div class="fixed-wrap">
+        <div id="fixed"></div>
+      </div>
+    </figure>
+     <!-- Slike -->
+     <div class="container">
+      
+      <div id="myCarousel" class="carousel slide">
+        <!-- Indikatori -->
+        <ol class="carousel-indicators">
+          <li class="item1 active"></li>
+          <li class="item2"></li>
+          <li class="item3"></li>
+          <li class="item4"></li>
+        </ol>
+        
+        
+        <!---- Listbox -->
+        <div class="carousel-inner" role="listbox">
+          <h2></h2>
+          <div class="item active">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPCN4SPe57ZliJOz35C6dUrmKRwHNLtcLJ9A&usqp=CAU" class="rounded-circle" alt="Chania" width="100%" height="100%">
+            <div class="carousel-caption">
+              <h3>Mars</h3>
+              <p>Mars (Strah, Užas ili Ognjenica) je četvrti planet po udaljenosti od Sunca, vidljiv sa Zemlje prostim okom. Nosi ime rimskog boga rata i često je nazivan Crvenim planetom zbog.</p>
+            </div>
+          </div>
+        
+          <div class="item">
+            <img src="https://nypost.com/wp-content/uploads/sites/2/2017/07/mars.jpg?quality=80&strip=all" alt="Chania" width="100%" height="100%">
+            <div class="carousel-caption">
+              <h3>Crveni planet</h3>
+              <p>Promjer mu je 6 794 km, masa 0,107 Zemljine mase, srednja gustoća 3,94 ∙ 103 kg/m3, a površinsko ubrzanje sile teže 0,38 ubrzanja sile teže na Zemlji.</p>
+            </div>
+          </div>
+        
+          <div class="item">
+            <img src="https://sm.mashable.com/mashable_in/seo/2/27567/27567_pgk3.jpg" alt="Flower" width="100%" height="100%">
+            <div class="carousel-caption">
+              <h3>Početci istraživanja</h3>
+              <p>Planet Mars uvijek je očaravao čovjeka svojom jarkocrvenom bojom na noćnom nebu.  Postojala je pretpostavka da na planetu teče voda, te da prema tome postoji mogućnost života van Zemlje</p>
+            </div>
+          </div>
+    
+          <div class="item">
+            <img src="https://image.dnevnik.hr/media/images/768x432/Nov2020/61985921-astronaut-mars.jpg" alt="Flower" width="100%" height="100%">
+            <div class="carousel-caption">
+              <h3>Prvo putovanje</h3>
+              <p>Sovjetski savez je razvijao program Mars, čije su ekspedicije sadržavale svemirsku letjelicu u putanji i dio za meko spuštanje. Letjelica Mars 3 prva se meko spustila 1971.</p>
+            </div>
+          </div>
+      
+        </div> 
+    
+        <!-- Lijevi i desni kontroler -->
+        <a class="left carousel-control" href="#myCarousel" role="button">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Navigacija -->
+    <div class="container">
+      
+      <br>
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#home">Općenito</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#menu1">Svojstva</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#menu2">Povijest</a>
+        </li>
+      </ul>
+      <!-- Tab panes -->
+      
+      <div class="tab-content">
+        <div id="home" class="container tab-pane active"><br>
+          <h3 id="pan">Općenito</h3>
+          <p id="pan2"> Sunčev mu dan traje gotovo kao i Zemljin, 24 h i 37 min. Oko Sunca obiđe za 687 zemaljskih dana, od Sunca je prosječno udaljen 228 milijuna km, a zbog nagiba osi vrtnje prema ravnini staze od 25°12′ i izduljenosti staze, pokazuje godišnja doba. Pogled sa Zemlje otkriva na Marsu bijele polarne kape, crvenkastonarančastu površinu s tamnijim i svjetlijim dijelovima te vrlo rijetku atmosferu, koja se sastoji od 95% ugljikova dioksida, 2,7% dušika, 1,6% argona te primjesa. Površinski tlak iznosi oko 700 Pa. U atmosferi se pojavljuju oblaci, a podižu se i pješčane oluje. Temperatura može biti od –140 °C do nešto više od 0 °C, ovisno o dobu dana i godine te o položaju Marsa na stazi. Pojave na površini nazivane su prema kontrastu morima, zaljevima, planinama i slično (albedo), a stvaran reljef ustanovljen je s pomoću međuplanetarnih letjelica.</p>
+        </div>
+        <div id="menu1" class="container tab-pane "><br>
+          <h3 id="pan">Svojstva</h3>
+          <p id="pan2">Marsova je atmosfera rijetka u usporedbi sa Zemljinom. Tlak u području srednje površinske razine iznosi 7 mbar (oko 150 je manji nego na Zemlji na razini mora). No, u razno doba godine i na raznim mjestima mjeri se od 1 do 10 mbar.Prosječna izmjerena temperatura na Marsovoj površini je 210 K, s maksimumom od 293 K i minimumom od 130 K. Najtoplija su područja oko ekvatora i u subsolarnoj točki zato što temperatura tla ovisi o kutu upada Sunčevih zraka i često varira jer je rijetka atmosfera slab toplinski spremnik. Na polovima temperatura zimi ne prelazi 160 K, a pada i do 120 K što je dovoljno da CO2 kondenzira. Tada dio atmosferskog CO2 prelazi u polarnu kapu što dovodi do naglog pada tlaka na tom području i zrak s čitavog globusa struji prema tom polu.U odnosu na Zemlju, Marsova atmosfera je vrlo rijetka zbog čega ima niski površinski tlak koji se mijenja od 1 do 10 mbar, ovisno o uvjetima. Prosječan tlak u području srednje površinske razine iznosi 7 mbar. Marsov pejzaž sličan je Zemljinom i Mjesečevu, no ima i svojih posebnosti. Teren je prosječnog nagiba 3°. Površina Marsa je crvene boje zbog velikih količina željeza koje sadrži. Možemo je podijeliti na sjevernu i južnu polutku granicom koja siječe ekvator pod kutem od 35°. Teren južne je u prosjeku 2-3 kilometra viši od sjeverne, uglavnom zbog razlike u gustoći kore. Južna polutka puna je udarnih meteorskih kratera veličine od 3 do 120 km nastalih u doba bombardiranja planetoidima. Manji krateri su malobrojni. Na sjevernom dijelu prevladava bazalt koji je gušći od granita i zato ima niži ravnotežni položaj. To bazaltno područje je zapravo kora prelivena lavom koja je uništila starije kratere, zbog čega je ravnija. Za razliku od Mjesečevih kratera, Marsovi u pravilu nemaju središnju izbočinu i zasuti su izmrvljenim materijalom. Na Marsovoj se površini razlikuje nekoliko oblika reljefa.Glatke kružne udubine okružene planinskim lancem na rubu nazivaju se bazeni. Najveći su Planitia Argyre (Argirska ravnica) promjera 1 000 km i Planitia Hellas (Grčka ravnica) promjera 1 700 km. Oba bazena su svijetle površine. Dno Planitiae Hellas prekriveno je pješčanim slojem tako da nema nikakvih vidljivih detalja, a od okoline (brdovitog područja Hellespontus - Dardaneli) niže je 6 kilometara.</p>
+        </div>
+        <div id="menu2" class="container tab-pane "><br>
+          <h3 id="pan">Povijest</h3>
+          <p id="pan2"> Kartografiranje Marsa započeli su Wilhelm Beer i Johann Heinrich von Mädler 1840. Talijanski astronom Giovanni Schiaparelli je 1877. godine otkrio uzdužne i poprečne tanke niti koje je nazvao "kanalima" i za koje se smatralo da ih je izgradila vanzemaljska civilizacija. Dokazano je da je to bila optička varka, kao i sezonske promjene površine koje su viđene u modrozelenkastim nijansama i za koje se pretpostavljalo da su uzrokovane bujanjem vegetacije.Rad je nastavio Eugène Michel Antoniadi od 1909. do 1924. Uočene pojave uzrokovane su kontrastom većih dijelova Marsa (njihovom odraznom moći), pa se stoga nazivaju detaljima albeda.Prva uspješna sonda Mariner 4 poslala je u srpnju 1965. seriju od 22 fotografije koje su otkrile mnoge kratere i prirodno nastale kanjone, ali ništa što bi navodilo na postojanje umjetnih kanala i tekuće vode. Mariner 4 je 15. srpnja 1965. prošao kraj Marsa na daljini od 10 000 kilometara.Vodu na Marsu otkrile su i svemirske sonde Mars Odyssey i Mars Express.5. svibnja 2018. NASA je lansirala raketu koja nosi sondu (lander) čija je zadaća istražiti Marsovo tlo i još dva mala satelita. Lansirana je iz baze Vandenberg u Kaliforniji. Zove se Mars InSight.NASA je lansirala rover Perseverance kao dio misije Mars 2020 30. srpnja 2020, a sletio je na Mars 18. veljače 2021. Perseverance je izgrađen s ciljem prikupljanja uzoraka s Marsa koji će radi proučavanja biti vraćeni na Zemlju. U krateru Jezero i njegovoj okolini tragat će za znakovima života, mineralnim nanosima i mogućim mikroskopskim fosilima, što će znanstvenicima pomoći ustanoviti je li na Marsu nekad bio moguć život. Osim toga, isprobat će instrumente za bušenje zemljišta, kao i meteorološke instrumente, a testirat će i je li moguće tamošnji ugljikov dioksid pretvoriti u kisik.
+
+            Vrlo nedavno, sonda Al Amal (Nada) UAE sletjela je na Mars, što je učinilo UAE prvom državom na Bliskom istoku koja je stigla do Marsa.</p>
+        </div>
+      </div>
+    </div>
+    <br><br><hr><br><br>
+    
+    <!--Jumbotron-->
+    <div class="container-fluid ">
+      <div class="row jumbotron ">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10 ">
+          <p class="lead">NASA lokacija (Washington, Sjedinjene Američke Države)</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+          <a href="googlemapa.html" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg">Klinkni</button></a>
+        </div>
+      </div>
+    </div>
+
+    <!--Cards-->
+    <div class="container-fluid padding" style="padding: 20px;">
+      <div class="row padding">
+        <div class="col-md-3" style="width:280px">
+          <div class="card">
+            <img class="card-img-top" id="cardIMG"src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/2001_mars_odyssey_wizja.jpg/300px-2001_mars_odyssey_wizja.jpg">
+            <div class="card body" id="cardBODY">
+              <h4 class="card-title">2001 Mars Odyssey</h4>
+              <p class="card-text" id="cardTXT" >2001 Mars Odyssey je automatska svemirska sonda američke svemirske agencije NASA-e. Lansiran je 7. aprila 2001, a cilj mu je traženje vode[1] na Marsu i istraživanje Marsa.</p>
+              <a href="mars2021.html" target="_blank" class="btn btn-outline-secondary">Detaljnije</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3" >
+          <div class="card">
+            <img class="card-img-top" id="cardIMG"src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Maven_spacecraft_full.jpg/300px-Maven_spacecraft_full.jpg">
+            <div class="card body">
+              <h4 class="card-title">MAVEN</h4>
+              <p class="card-text" id="cardTXT">MAVEN (Mars Atmosphere and Volatile EvolutioN) je svemirska letjelica agencije NASA, čije je lansiranje uspješno obavljeno 18. novembra 2013. godine. Primarni cilj misije je da uđe u orbitu Marsa i istraži njegovu atmosferu.</p>
+              <a href="maven.html" target="_blank" class="btn btn-outline-secondary">Detaljnije</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" id="cardIMG"src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Mars_Reconnaissance_Orbiter.jpg/300px-Mars_Reconnaissance_Orbiter.jpg">
+            <div class="card body">
+              <h4 class="card-title">Mars Reconnaissance Orbiter</h4>
+              <p class="card-text" id="cardTXT">Mars Reconnaissance Orbiter je letjelica namijenjena za istraživanje Marsa. Ulaskom u orbitu oko Marsa u martu 2006., letjelica je postala njegov 4. vještački satelit.</p>
+              <a href="marsOrbita.html" target="_blank" class="btn btn-outline-secondary">Detaljnije</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-img-top" id="cardIMG"src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/PIA22876-InSight-FirstSelfie-20181211.jpg/220px-PIA22876-InSight-FirstSelfie-20181211.jpg">
+            <div class="card body">
+              <h4 class="card-title">InSight</h4>
+              <p class="card-text" id="cardTXT">InSight je robotski lender, dizajniran da proučava unutrašnjost planete Mars.[1] Misija je lansirana 5. maja 2018. u 11:05 po UTC[2] i njeno slijetanje[3] na površinu Marsa u području Elysium Planitia dogodilo se 26. novembra 2018. oko 20:54 po srednjoevropskom vremenu, nakon proputovanja gotovo 484.773.000 kilometara.[4][5] Lender, težine oko 360 kilograma, je prilikom spuštanja usporio brzinom od 19.000 km/h pomoću aerodinamičnog kočenja.</p>
+              <a href="insing.html" target="_blank" class="btn btn-outline-secondary">Detaljnije</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+     <!--Jumbotron-->
+     <div class="container-fluid">
+      <div class="row jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+          <p class="lead">10 zanimljivih činjenica o Marsu</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+          <a href="video.html" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg">Pogledaj</button></a>
+        </div>
+      </div>
+    </div>
+    <!--Mail-->
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Unesite email...">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Lozinka</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Unesite lozinku (max 9 znakova)..." max="9">
+          </div>
+        </div>
+        <div class="form-group col-sm-12">
+          <label for="inputAddress">Adresa</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Unesite svoju adresu...">
+        </div>
+        <div class="form-group col-md-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Potvrdi prijavu
+            </label>
+          </div>
+        </div>
+        <div class="form-group col-md-12">
+         <button type="button" class="btn btn-outline-secondary btn-lg" onclick="klikniMe()">Pošalji</button>
+         <!-- Button trigger modal -->
+
+        </div>
+      </form>
+    <!--Connect icons-->
+    
+    <footer>
+      <div class="container-fluid padding">
+        <div class="row text-center btn-outline-light ">
+          <div class="col-md-12">
+            <a id="footer"href="http://science.nasa.gov/" target="_blank">NASA MISSION DIRECTORATE</a>
+            <a id="footer"href="https://www.jpl.nasa.gov/copyrights.php" target="_blank">PRIVACY</a>
+            <a id="footer"href="https://mars.nasa.gov/feedback/" target="_blank">FEEDBACK</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!--JavaSC-->
+    <script>
+      
+
+      $(document).ready(function(){
+      // Activate Carousel
+      $("#myCarousel").carousel();
+        
+      // Enable Carousel Indicators
+      $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+      });
+      $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+      });
+      $(".item3").click(function(){
+        $("#myCarousel").carousel(2);
+      });
+      $(".item4").click(function(){
+        $("#myCarousel").carousel(3);
+      });
+        
+      // Enable Carousel Controls
+      $(".left").click(function(){
+        $("#myCarousel").carousel("prev");
+        
+      });
+      $(".right").click(function(){
+        $("#myCarousel").carousel("next");
+      });
+    });
+    
+    
+    
+    function klikniMe(){
+      let ime=prompt("Vaše ime je: ")
+
+      if (ime.length>="6"){
+        alert(ime + " prijava je uspješno obavljena.")
+      }
+      else{
+        console.log(ime + " prijava je uspješno obavljena.")
+      }
+    }
+    
+    </script>
+     
+  </body>
+</html>

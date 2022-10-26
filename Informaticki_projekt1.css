@@ -1,0 +1,42 @@
+body{
+    background: rgb(223, 214, 216) !important; 
+}
+
+nav {
+    font-size: 15px;
+    padding: 10px;
+    margin: auto;
+}
+
+.container {
+    text-align: left;
+    font-size: 12px;
+    font-variant: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li {
+     font-size: 15px;
+     font-weight: bold;
+     
+}
+
+#pan {
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+#pan2 {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    font-style: italic;
+}
+
+#footer {
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+}
